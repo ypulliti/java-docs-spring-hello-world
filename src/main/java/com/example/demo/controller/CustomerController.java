@@ -24,7 +24,7 @@ public class CustomerController
 
     private static final Logger log = LoggerFactory.getLogger(CustomerController.class);
 
-    @GetMapping("getCustomers")
+    @GetMapping
     public Flux<Customer> readAll() {
         log.debug("Begin RestController readAll Location");
         return coinbankServiceInte.readAll();
