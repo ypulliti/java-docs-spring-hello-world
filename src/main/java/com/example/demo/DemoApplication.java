@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World from NTTData Bootcamp by Yelinna Pulliti";
+		return "Hello World from NTTData Bootcamp by Yelinna Pulliti Sept 2022";
 	}
 }
